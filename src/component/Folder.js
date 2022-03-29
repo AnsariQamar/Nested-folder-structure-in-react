@@ -18,7 +18,11 @@ function Folder({ explorer }) {
       </div>
     );
   } else {
-    return <span>{explorer.name} <br/></span>;
+    return (
+      <span>
+        {explorer.name} <br />
+      </span>
+    );
   }
 }
 export default Folder;
